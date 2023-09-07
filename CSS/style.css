@@ -267,15 +267,17 @@ nav ul li a {
   width: 80%;
   margin-left: 10%;
 }
-.profileImg {
+/* .profileImg {
   background-image: url("../img/img1.jpg");
-  /* border: 5px solid red; */
-  /* background-color: black; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 350px;
   width: 350px;
+} */
+.proImg {
+  width: 350px;
+  height: auto;
 }
 .aboutMeText {
   /* border: 5px solid red; */
@@ -380,7 +382,10 @@ footer {
 
     width: 30%;
   }
-
+  .priImg {
+    max-width: 100%;
+    height: auto;
+  }
   .resume .resumeLink {
     font-size: 16px;
   }
@@ -410,6 +415,9 @@ footer {
   .resume .resumeLink {
     font-size: 16px;
   }
+  .proImg {
+    width: 300px;
+  }
   .aboutMeText {
     font-size: 16px;
   }
@@ -432,7 +440,9 @@ footer {
 
     width: 30%;
   }
-
+  .proImg {
+    width: 250px;
+  }
   .aboutMeText {
     font-size: 14px;
   }
@@ -501,6 +511,15 @@ footer {
 
     width: 50%;
   }
+  .proImg {
+    background-color: #0e1212;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+  }
+  .profileImg {
+    text-align: center;
+  }
 
   .about {
     height: 80vh;
@@ -519,7 +538,8 @@ footer {
   }
   .aboutMeText {
     font-size: 14px;
-    margin-left: 10%;
+    margin-left: 0%;
+    width: 100%;
   }
   .resume {
     width: 50%;
